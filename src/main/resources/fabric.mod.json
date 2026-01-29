@@ -1,1 +1,29 @@
-
+{
+  "schemaVersion": 1,
+  "id": "aimlock",
+  "version": "${version}",
+  "name": "Aimlock",
+  "description": "Smooth aim lock on the target under your crosshair only. Toggle with keybind.",
+  "authors": [
+    "Haseeb"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "https://github.com/gamee504-sudo/aimlock-mod"
+  },
+  "license": "MIT",
+  "icon": "assets/aimlock/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.grok.aimlock.AimLock"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "fabric-api": "*",
+    "minecraft": "~1.21",
+    "java": ">=21"
+  }
+}
